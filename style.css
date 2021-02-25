@@ -1,0 +1,250 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.container{
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  width: 1080px;
+  padding: 0 20px;
+}
+
+.resume{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.resume__contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume__photo{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.resume__name{
+  margin: 0;
+  margin-top: 20px;
+  width: 250px;
+  text-align: center;
+  font-size: 24px;
+
+  font-weight: 500;
+}
+
+.resume__list{
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+}
+
+.resume__item{
+  list-style-type: none;
+
+}
+.resume__item:not(:last-child){
+  margin-right: 15px;
+}
+
+.resume__item img{
+  transition: all 0.2s linear;
+}
+
+.resume__item img:hover{
+  transform: translateY(-5px);
+}
+
+.resume__separate{
+  height: auto;
+  border: 1px solid #e5e5e5;
+  margin-left: 50px;
+}
+
+.resume__description{
+  margin-left: 50px;
+}
+
+.resume__about-me,
+.resume__work-experience,
+.resume__skills,
+.resume__experience,
+.resume__education{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.resume__work-experience{
+  margin-top: 20px;
+}
+
+.resume__description-title{
+  margin: 0;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+
+.resume__description-subtitle{
+  font-style: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.resume__description-text{
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(143, 142, 142);
+}
+.resume__description-text_work-experience,
+.resume__description-text_experience{
+  margin-top: 5px;
+}
+
+.resume__skills{
+  margin-top: 20px;
+}
+
+.resume__skills-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume__skill{
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+  border: 1px solid #2fbde9;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.resume__skill:hover{
+  transform: translateY(-5px);
+}
+.resume__skill:not(:last-child){
+  margin-right: 20px;
+}
+
+.resume__experience{
+  margin-top: 20px;
+}
+
+.resume__experience-link{
+  text-decoration: none;
+  color:  #2fbde9;
+  font-size: 16px;
+}
+
+.resume__experience-link:hover{
+  text-decoration: underline;
+}
+
+.resume__education{
+  margin-top: 20px;
+}
+
+.resume__languages{
+  margin-top: 20px;
+}
+
+.resume__description-text_languages{
+  margin: 0;
+  margin-top: 5px;
+}
