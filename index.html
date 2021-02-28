@@ -13,13 +13,15 @@
 
   <body>
     <div class="container">
-      <div class="resume">
+      <main class="resume">
         <aside class="resume__contact">
-          <img
-            class="resume__photo"
-            src="assets/img/cv__photo.jpg"
-            alt="myPhoto"
-          />
+          <figure>
+            <img
+              class="resume__photo"
+              src="assets/img/cv__photo.jpg"
+              alt="myPhoto"
+            />
+          </figure>
           <h1 class="resume__name">Andrew Neumyvannyi</h1>
           <ul class="resume__list">
             <li class="resume__item">
@@ -52,7 +54,7 @@
           </ul>
         </aside>
         <span class="resume__separate"></span>
-        <main class="resume__description">
+        <div class="resume__description">
           <article class="resume__about-me">
             <h3 class="resume__description-title">About me</h3>
             <p class="resume__description-text">
@@ -156,8 +158,21 @@
               A1 - Beginner
             </p>
           </article>
-        </main>
-      </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <p class="footer__text">CV for RSS</p>
+          <a href="https://docs.rs.school/#/">
+            <figure class="rss">
+              <img
+                src="https://app.rs.school/static/images/logo-rsschool3.png"
+                alt="RSSlogo"
+              /></figure
+          ></a>
+          <p class="footer__text">Copyright © AndreyNeumyvannyi 2021</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
